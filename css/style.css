@@ -23,7 +23,7 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  color: #000;
+  color: blue;
   font-size: 30px;
 }
 #left-button {

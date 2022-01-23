@@ -10,14 +10,12 @@ var slides =
   document.getElementsByClassName(
     "slides-item"
   );
-var prevBtn =
-  document.getElementsByClassName(
-    "left-button"
-  );
-var nextBtn =
-  document.getElementsByClassName(
-    "right-button"
-  );
+var prevBtn = document.getElementById(
+  "left-button"
+);
+var nextBtn = document.getElementById(
+  "right-button"
+);
 var slidesIndex = 1;
 showSlides(slidesIndex);
 
